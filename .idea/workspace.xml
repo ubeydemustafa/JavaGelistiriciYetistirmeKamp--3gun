@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155c9fd4-af3c-4812-855f-b2b6008d1e2b" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/entities/Product.java" afterDir="false" />
+    <list default="true" id="155c9fd4-af3c-4812-855f-b2b6008d1e2b" name="Changes" comment="packagelar oluşturuldu.">
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/business/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/core/logging/DatabaseLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/core/logging/FileLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/core/logging/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/core/logging/MailLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/dataAccess/HibernateProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/dataAccess/JdbcProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/dataAccess/ProductDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oopWithNLayeredApp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oopWithNLayeredApp/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/entities/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,6 +48,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oopWithNLayeredApp.Main" />
+      <module name="JavaGelistiriciYetistirmeKamp--3gun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oopWithNLayeredApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665596361852</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="packagelar oluşturuldu.">
+      <created>1666033663623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666033663623</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="packagelar oluşturuldu." />
+    <option name="LAST_COMMIT_MESSAGE" value="packagelar oluşturuldu." />
   </component>
 </project>
